@@ -56,4 +56,7 @@ Below is the confusion matrix for test dataset :
     python eval.py
     ```
 
+## NOTE
+
+JSON files have been processed as line. Use "lines=True" while reading processed files using pandas.read_json()
 
