@@ -9,7 +9,6 @@ def download_files(url, id):
     response = requests.get(url, stream=True)
     if response.status_code == 200:
         filepath = os.path.join(currentPath, data, f'{id}.pdf')
-        print(filepath)
         with open(filepath, 'wb') as pdf_object:
             pdf_object.write(response.content)
             print(f'{id} was successfully saved!')
@@ -33,5 +32,6 @@ if __name__ == '__main__':
                 download_files(e['URL'], e["ID"])
             except:
                 continue
+        break
     print('Scraping completed')
 

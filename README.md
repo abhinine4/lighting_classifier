@@ -40,9 +40,8 @@ Below is the confusion matrix for test dataset
 
     Download and process text in pdf files.
 
-    ```
-    python ./data/data_scraping.py
-    python extract_text.py
+    ```bash
+    ./data_processor.sh
     ```
 
 - Train text classifier :
