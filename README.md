@@ -12,13 +12,13 @@ Below is the confusion matrix for test dataset :
 - Create conda environment :
 
     ```bash
-    conda create --name test_par python=3.10
+    conda create --name parspec python=3.10
     ```
 
 - Activate environment :
 
     ```bash
-    conda activate test_par
+    conda activate parspec
     ```
 
 - Install the required libraries :
