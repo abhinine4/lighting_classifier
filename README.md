@@ -58,5 +58,5 @@ Below is the confusion matrix for test dataset :
 
 ## NOTE
 
-Use "lines=True" to read processed JSONfiles with pandas.read_json()
+Use "lines=True" to read processed JSON files with pandas.read_json()
 
