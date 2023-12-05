@@ -6,9 +6,7 @@ The RF model achieves **88.75%** accuracy on test dataset.
 
 Below is the confusion matrix for test dataset :
 
-<p align="center">
-  <img src="test_confusion_matrix.png" alt="cm/>
-</p>
+![CM](test_confusion_matrix.png)
 
 ### Setup
 - Create conda environment :
