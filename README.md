@@ -2,7 +2,11 @@
 
 A Random Forest model that parses pdf documents, classifies and predicts whether the pdf is for a lighting product or not.
 
-The RF model achieves **88.75%** on test dataset.
+The RF model achieves **88.75%** accuracy on test dataset.
+
+Below is the confusion matrix for test dataset
+
+![CM](test_confusion_matrix.png)
 
 ### Setup
 - Create conda environment
