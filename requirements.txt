@@ -1,0 +1,6 @@
+pymupdf
+pandas
+nltk
+scikit-learn
+xgboost
+requests
