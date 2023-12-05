@@ -30,6 +30,17 @@ The RF model achieves **88.75%** on test dataset.
      python predict.py --filepath “URL or local path to file” 
      ```
 
+### Training
+
+-  Dataset:
+
+    Download and process text in pdf files.
+
+    ```
+    python ./data/data_scraping.py
+    python extract_text.py
+    ```
+
 - Train text classifier :
 
     ```
@@ -42,11 +53,4 @@ The RF model achieves **88.75%** on test dataset.
     python eval.py
     ```
 
--  Dataset:
 
-    Download and process text in pdf files.
-
-    ```
-    python ./data/data_scraping.py
-    python extract_text.py
-    ```
