@@ -7,28 +7,40 @@ The RF model achieves **88.75%** on test dataset.
 ### Setup
 - Create conda environment
 
-    ```conda create --name test_par python=3.10```
+    ```bash
+    conda create --name test_par python=3.10
+    ```
 
 - Activate environment
 
-    ```conda activate test_par```
+    ```bash
+    conda activate test_par
+    ```
 
 - Install the required libraries 
 
-    ```pip install -r requirements.txt```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Usage
 - Get results (URL or local pdf file)
 
-     ```python predict.py --filepath “URL or local path to file” ```
+     ```
+     python predict.py --filepath “URL or local path to file” 
+     ```
 
 - To train text classifier, run :
 
-    ```python train.py ```
+    ```
+    python train.py 
+    ```
 
 - Run evaluation on Test data : 
 
-    ```python eval.py```
+    ```
+    python eval.py
+    ```
 
 - Scrape and preprocess train and test data from csv files :
 
