@@ -1,8 +1,10 @@
 # Lighting Classifier
 
-A Random Forest model that parses pdf documents, classifies and predicts whether the pdf is for a lighting product or not. 
+A Random Forest model that parses pdf documents, classifies and predicts whether the pdf is for a lighting product or not.
 
-### Usage
+The RF model achieves **88.75%** on test dataset.
+
+### Setup
 - Create conda environment
 
     ```conda create --name test_par python=3.10```
@@ -15,7 +17,8 @@ A Random Forest model that parses pdf documents, classifies and predicts whether
 
     ```pip install -r requirements.txt```
 
-- Predict 
+### Usage
+- Get results (URL or local pdf file)
 
      ```python predict.py --filepath “URL or local path to file” ```
 
@@ -23,6 +26,15 @@ A Random Forest model that parses pdf documents, classifies and predicts whether
 
     ```python train.py ```
 
-- Run evaluation on Test data
+- Run evaluation on Test data : 
 
     ```python eval.py```
+
+- Scrape and preprocess train and test data from csv files :
+
+    Download and process text in pdf files from csv files.
+
+    ```
+    python ./data/data_scraping.py
+    python extract_text.py
+    ```
