@@ -32,7 +32,14 @@ Below is the confusion matrix for test dataset :
 
      ```
      python predict.py --filepath “URL or local path to file” 
+     
      ```
+
+- Run only evaluation on test data : 
+
+    ```
+    python eval.py
+    ```
 
 ### Training
 
@@ -50,11 +57,7 @@ Below is the confusion matrix for test dataset :
     python train.py 
     ```
 
-- Run evaluation on test data : 
 
-    ```
-    python eval.py
-    ```
 
 ## NOTE
 
